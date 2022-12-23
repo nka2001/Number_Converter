@@ -26,7 +26,7 @@ public class NumberConverter {
         c1.convertNumToBinary();
         
         System.out.println(c1.toString());
-        */
+        
         
         ConvertToOctal c2 = new ConvertToOctal();
         
@@ -35,7 +35,15 @@ public class NumberConverter {
         c2.convertToOctal();
         
         System.out.println(c2.toString());
+        */
         
+        ConvertToHex c3 = new ConvertToHex();
+        
+        c3.setNumberToConvert(1024);
+        
+        c3.convertToHexadecimal();
+        
+        System.out.println(c3.toString());
         
         
     }

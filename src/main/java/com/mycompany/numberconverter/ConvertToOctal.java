@@ -67,7 +67,7 @@ public class ConvertToOctal {
 
     /**
      * toString will return the contents of the stack, by popping one at a time
-     * adding a space between each block of 4 bits
+     *
      *
      * @return
      */
@@ -83,19 +83,19 @@ public class ConvertToOctal {
         return str;//return the string when all is said and done
 
     }
-    
+
     /**
-     * convertToOctal will take the number given by the user and convert it to its octal equivalent.
+     * convertToOctal will take the number given by the user and convert it to
+     * its octal equivalent.
      */
-    public void convertToOctal(){
-        while(numToConvert > 0){
-            
+    public void convertToOctal() {
+        while (numToConvert > 0) {
+
             convertedNum.push(this.numToConvert % 8);//remainder 8 since octal is base 8
             this.numToConvert /= 8;//divide the original number by 8 to decrease it 
-            
-            
+
         }
-        
+
     }
 
 }
