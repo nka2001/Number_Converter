@@ -8,10 +8,13 @@ import java.util.Scanner;
  */
 public class NumberConverter {
 
+    
     public static void main(String[] args) {
         
         //TODO: Add test cases to binary class (Use the built in converter and compare, test the set method as well), aside from that move onto octal, or hexadecimal 
         
+        
+        /*
         ConvertToBinary c1 = new ConvertToBinary();
         Scanner scan = new Scanner(System.in);
         
@@ -23,8 +26,15 @@ public class NumberConverter {
         c1.convertNumToBinary();
         
         System.out.println(c1.toString());
+        */
         
+        ConvertToOctal c2 = new ConvertToOctal();
         
+        c2.setNumberToConvert(145);
+        
+        c2.convertToOctal();
+        
+        System.out.println(c2.toString());
         
         
         
